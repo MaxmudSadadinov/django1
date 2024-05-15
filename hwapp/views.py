@@ -9,7 +9,7 @@ logger = logging.getLogger(__name__)
 
 def about_me(request):
     
-    with open('/home/max/Desktop/djj/hwproject/hwapp/about_me.html', 'r') as about:
+    with open('hwapp/about_me.html', 'r') as about:
         
         content = about.read()
         resp = HttpResponse(content)
@@ -19,7 +19,7 @@ def about_me(request):
 
 def main(request):
     
-    with open('/home/max/Desktop/djj/hwproject/hwapp/main.html', 'r') as main:
+    with open('hwapp/main.html', 'r') as main:
         content = main.read()
         resp = HttpResponse(content)
         logger.debug(f'посетили страницу "main"')

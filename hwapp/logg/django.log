@@ -31,3 +31,40 @@ WARNING 2024-05-12 12:08:59,092 Not Found: /hw/mein/
 WARNING 2024-05-12 12:08:59,095 "GET /hw/mein/ HTTP/1.1" 404 2336
 DEBUG 2024-05-12 12:09:08,660 посетили страницу "main"
 INFO 2024-05-12 12:09:08,662 "GET /hw/main/ HTTP/1.1" 200 329
+INFO 2024-05-15 08:32:03,415 Watching for file changes with StatReloader
+ERROR 2024-05-15 08:33:18,659 Internal Server Error: /hw/about/
+Traceback (most recent call last):
+  File "/home/max/Desktop/djj/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/max/Desktop/djj/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/max/Desktop/djj/hwproject/hwapp/views.py", line 12, in about_me
+    with open('about_me.html', 'r') as about:
+FileNotFoundError: [Errno 2] No such file or directory: 'about_me.html'
+ERROR 2024-05-15 08:33:18,664 "GET /hw/about/ HTTP/1.1" 500 69815
+WARNING 2024-05-15 08:33:19,783 Not Found: /favicon.ico
+WARNING 2024-05-15 08:33:19,786 "GET /favicon.ico HTTP/1.1" 404 2110
+INFO 2024-05-15 08:36:50,671 Watching for file changes with StatReloader
+INFO 2024-05-15 08:37:23,089 /home/max/Desktop/djj/hwproject/hwapp/views.py changed, reloading.
+INFO 2024-05-15 08:37:24,987 Watching for file changes with StatReloader
+ERROR 2024-05-15 08:37:29,840 Internal Server Error: /hw/about/
+Traceback (most recent call last):
+  File "/home/max/Desktop/djj/venv/lib/python3.10/site-packages/django/core/handlers/exception.py", line 55, in inner
+    response = get_response(request)
+  File "/home/max/Desktop/djj/venv/lib/python3.10/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+  File "/home/max/Desktop/djj/hwproject/hwapp/views.py", line 12, in about_me
+    with open('./about_me.html', 'r') as about:
+FileNotFoundError: [Errno 2] No such file or directory: './about_me.html'
+ERROR 2024-05-15 08:37:29,845 "GET /hw/about/ HTTP/1.1" 500 69962
+INFO 2024-05-15 08:37:45,367 /home/max/Desktop/djj/hwproject/hwapp/views.py changed, reloading.
+INFO 2024-05-15 08:37:47,636 Watching for file changes with StatReloader
+INFO 2024-05-15 08:37:52,886 Watching for file changes with StatReloader
+DEBUG 2024-05-15 08:37:59,582 посетили страницу "about me"
+INFO 2024-05-15 08:37:59,584 "GET /hw/about/ HTTP/1.1" 200 366
+INFO 2024-05-15 08:39:10,132 /home/max/Desktop/djj/hwproject/hwapp/views.py changed, reloading.
+INFO 2024-05-15 08:39:12,192 Watching for file changes with StatReloader
+DEBUG 2024-05-15 08:39:20,176 посетили страницу "about me"
+INFO 2024-05-15 08:39:20,190 "GET /hw/about/ HTTP/1.1" 200 366
+DEBUG 2024-05-15 08:39:29,670 посетили страницу "main"
+INFO 2024-05-15 08:39:29,673 "GET /hw/main/ HTTP/1.1" 200 329
