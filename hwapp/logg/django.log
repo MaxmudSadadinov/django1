@@ -68,3 +68,13 @@ DEBUG 2024-05-15 08:39:20,176 посетили страницу "about me"
 INFO 2024-05-15 08:39:20,190 "GET /hw/about/ HTTP/1.1" 200 366
 DEBUG 2024-05-15 08:39:29,670 посетили страницу "main"
 INFO 2024-05-15 08:39:29,673 "GET /hw/main/ HTTP/1.1" 200 329
+INFO 2024-05-15 09:24:02,897 Watching for file changes with StatReloader
+INFO 2024-05-15 09:24:06,144 /home/max/Desktop/djj/hwproject/hwproject/settings.py changed, reloading.
+INFO 2024-05-15 09:24:08,320 Watching for file changes with StatReloader
+INFO 2024-05-15 09:24:16,573 Watching for file changes with StatReloader
+DEBUG 2024-05-15 09:24:39,530 посетили страницу "about me"
+INFO 2024-05-15 09:24:39,535 "GET /hw/about/ HTTP/1.1" 200 366
+DEBUG 2024-05-15 09:24:40,743 посетили страницу "about me"
+INFO 2024-05-15 09:24:40,746 "GET /hw/about/ HTTP/1.1" 200 366
+DEBUG 2024-05-15 09:24:50,102 посетили страницу "main"
+INFO 2024-05-15 09:24:50,107 "GET /hw/main/ HTTP/1.1" 200 329
